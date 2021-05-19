@@ -12,6 +12,8 @@ target 'haunt_ui' do
     :hermes_enabled => false
   )
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'haunt_uiTests' do
     inherit! :complete
     # Pods for testing
