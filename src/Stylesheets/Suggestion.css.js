@@ -11,23 +11,34 @@ export const suggestionStyle = StyleSheet.create({
     alignItems: 'center',
   },
   suggestionCard: {
-    height: deviceHeight * 0.87,
-    width: deviceWidth * 0.95,
-    borderRadius: 10,
-    backgroundColor: '#999999',
+    height: deviceHeight * 0.8,
+    width: deviceWidth,
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'flex-end',
   },
   suggestionActions: {
+    width: deviceWidth,
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-around',
+    paddingTop: 10,
+    paddingBottom: 10,
   },
-  suggestionDetails: {
+  nameAndAge: {
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
+  },
+  suggestionDetails: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+    paddingTop: 10,
+    paddingBottom: 10,
+    backgroundColor: 'rgba(0,0,0,0.5)',
+    marginBottom: 10,
   },
   suggestedUserName: {
     fontSize: 20,
@@ -35,5 +46,23 @@ export const suggestionStyle = StyleSheet.create({
     fontWeight: 'bold',
     marginLeft: 10,
     marginRight: 2,
+  },
+  profession: {
+    fontSize: 15,
+    color: '#ffffff',
+    marginLeft: 10,
+    marginRight: 2,
+  },
+  action: {
+    backgroundColor: '#222222',
+    borderRadius: 50,
+    padding: 5,
+  },
+  likeAction: {
+    backgroundColor: '#222222',
+    borderRadius: 50,
+    paddingTop: 13,
+    paddingLeft: 11.5,
+    paddingRight: 11.5,
   },
 });
