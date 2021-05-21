@@ -9,6 +9,7 @@ export const Footer = () => {
   return (
     <View style={styles.footer}>
       <MaterialCommunityIcon name="ghost" size={33} color="#ffffff" />
+      <MaterialCommunityIcon name="heart-multiple" size={32} color="#ffffff" />
       <EntypoIcon name="chat" size={32} color="#ffffff" />
       <IoniconsIcon name="person" size={32} color="#ffffff" />
     </View>

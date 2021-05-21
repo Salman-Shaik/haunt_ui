@@ -3,7 +3,7 @@ import {deviceHeight, deviceWidth} from './helper';
 
 export const mainStyles = StyleSheet.create({
   main: {
-    height: deviceHeight * 0.9,
+    height: deviceHeight * 0.93,
     width: deviceWidth,
   },
 });

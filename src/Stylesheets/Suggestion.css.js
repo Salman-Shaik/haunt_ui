@@ -11,7 +11,7 @@ export const suggestionStyle = StyleSheet.create({
     alignItems: 'center',
   },
   suggestionCard: {
-    height: deviceHeight * 0.8,
+    height: deviceHeight * 0.835,
     width: deviceWidth,
     display: 'flex',
     flexDirection: 'column',

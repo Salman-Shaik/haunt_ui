@@ -1,12 +1,5 @@
 import React, {useEffect} from 'react';
-import {
-  SafeAreaView,
-  StatusBar,
-  StyleSheet,
-  useColorScheme,
-} from 'react-native';
-
-import {Colors} from 'react-native/Libraries/NewAppScreen';
+import {View, StatusBar, StyleSheet, useColorScheme} from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
 import {Homepage} from './Components/Homepage';
 
@@ -24,10 +17,10 @@ const App: () => Node = () => {
   }, []);
 
   return (
-    <SafeAreaView style={backgroundStyle}>
+    <View style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <Homepage />
-    </SafeAreaView>
+    </View>
   );
 };
 
