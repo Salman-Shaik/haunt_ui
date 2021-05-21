@@ -12,7 +12,11 @@ export const Footer = ({updateLocation}) => {
         <MaterialCommunityIcon name="ghost" size={33} color="#ffffff" />
       </TouchableOpacity>
       <TouchableOpacity onPress={() => updateLocation('LikesAndMatches')}>
-        <MaterialCommunityIcon name="heart-multiple" size={32} color="#ffffff" />
+        <MaterialCommunityIcon
+          name="heart-multiple"
+          size={32}
+          color="#ffffff"
+        />
       </TouchableOpacity>
       <TouchableOpacity onPress={() => updateLocation('Chat')}>
         <EntypoIcon name="chat" size={32} color="#ffffff" />

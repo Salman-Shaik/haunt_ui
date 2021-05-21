@@ -8,9 +8,9 @@ import {LikesAndMatches} from './LikeAndMatch/LikesAndMatches';
 export const Main = ({isCurrentScreen, updateLocation}) => {
   return (
     <View style={styles.main}>
-      {isCurrentScreen('Suggestions') && <Suggestions/>}
-      {isCurrentScreen('LikesAndMatches') && <LikesAndMatches/>}
-      {isCurrentScreen('Chat') && <Messages/>}
+      {isCurrentScreen('Suggestions') && <Suggestions />}
+      {isCurrentScreen('LikesAndMatches') && <LikesAndMatches />}
+      {isCurrentScreen('Chat') && <Messages />}
     </View>
   );
 };
