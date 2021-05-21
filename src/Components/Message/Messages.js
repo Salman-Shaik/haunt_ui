@@ -1,6 +1,6 @@
 import React from 'react';
 import {ScrollView} from 'react-native';
-import {chatStyle as styles} from '../Stylesheets/Chat.css';
+import {chatStyle as styles} from '../../Stylesheets/Chat.css';
 import {Chat} from './Chat';
 
 export const Messages = () => {

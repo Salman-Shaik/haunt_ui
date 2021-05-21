@@ -1,16 +1,16 @@
 import React from 'react';
 import {View} from 'react-native';
 import {mainStyles as styles} from '../Stylesheets/Main.css';
-import {Suggestions} from './Suggestions';
-import {Messages} from './Messages';
-import {LikesAndMatches} from './LikesAndMatches';
+import {Suggestions} from './Suggestions/Suggestions';
+import {Messages} from './Message/Messages';
+import {LikesAndMatches} from './LikeAndMatch/LikesAndMatches';
 
-export const Main = () => {
+export const Main = ({isCurrentScreen, updateLocation}) => {
   return (
     <View style={styles.main}>
-      {/*<Suggestions />*/}
-      <LikesAndMatches />
-      {/*<Messages />*/}
+      {isCurrentScreen('Suggestions') && <Suggestions/>}
+      {isCurrentScreen('LikesAndMatches') && <LikesAndMatches/>}
+      {isCurrentScreen('Chat') && <Messages/>}
     </View>
   );
 };
