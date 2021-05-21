@@ -18,7 +18,7 @@ export const Profiles = () => {
         imageStyle={{borderRadius: 10, resizeMode: 'cover'}}>
         <View style={styles.nameAndAge}>
           <Text style={styles.suggestedUserName}>Casper, 1000</Text>
-          <MaterialIcon name="verified-user" size={20} color="#1e90ff"/>
+          <MaterialIcon name="verified-user" size={20} color="#1e90ff" />
         </View>
       </ImageBackground>
     );
@@ -26,16 +26,16 @@ export const Profiles = () => {
   return (
     <ScrollView contentContainerStyle={styles.profiles}>
       <View style={styles.profileRow}>
-        <Profile/>
-        <Profile/>
+        <Profile />
+        <Profile />
       </View>
       <View style={styles.profileRow}>
-        <Profile/>
-        <Profile/>
+        <Profile />
+        <Profile />
       </View>
       <View style={styles.profileRow}>
-        <Profile/>
-        <Profile/>
+        <Profile />
+        <Profile />
       </View>
     </ScrollView>
   );
@@ -57,7 +57,7 @@ export const LikesAndMatches = () => {
           <Text style={styles.tabText}>Matches</Text>
         </TouchableOpacity>
       </View>
-      {isLikes ? <Profiles/> : <Profiles/>}
+      {isLikes ? <Profiles /> : <Profiles />}
     </View>
   );
 };
