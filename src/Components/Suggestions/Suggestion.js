@@ -3,7 +3,7 @@ import {ImageBackground, Text, TouchableOpacity, View} from 'react-native';
 import {suggestionStyle as styles} from '../../Stylesheets/Suggestion.css';
 import EntypoIcon from 'react-native-vector-icons/Entypo';
 import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
-import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
+import Octicon from 'react-native-vector-icons/Octicons';
 
 export const Suggestion = () => {
   return (
@@ -15,7 +15,7 @@ export const Suggestion = () => {
         <View style={styles.suggestionDetails}>
           <View style={styles.nameAndAge}>
             <Text style={styles.suggestedUserName}>Casper, 1000</Text>
-            <MaterialIcon name="verified-user" size={20} color="#1e90ff" />
+            <Octicon name="verified" size={20} color="#1e90ff" />
           </View>
           <Text style={styles.profession}>Chief Earth Ghost at Heaven</Text>
         </View>

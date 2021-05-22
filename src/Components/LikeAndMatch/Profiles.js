@@ -1,7 +1,7 @@
 import React from 'react';
 import {ImageBackground, ScrollView, Text, View} from 'react-native';
 import {likesAndMatchesStyles as styles} from '../../Stylesheets/LikesAndMatches.css';
-import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
+import Octicon from 'react-native-vector-icons/Octicons';
 
 export const Profiles = () => {
   const Profile = () => {
@@ -12,7 +12,7 @@ export const Profiles = () => {
         imageStyle={{borderRadius: 10, resizeMode: 'cover'}}>
         <View style={styles.nameAndAge}>
           <Text style={styles.suggestedUserName}>Casper, 1000</Text>
-          <MaterialIcon name="verified-user" size={20} color="#1e90ff" />
+          <Octicon name="verified" size={20} color="#1e90ff" />
         </View>
       </ImageBackground>
     );

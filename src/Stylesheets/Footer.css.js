@@ -11,5 +11,6 @@ export const footerStyles = StyleSheet.create({
     justifyContent: 'space-around',
     alignItems: 'center',
     backgroundColor: '#222222',
+    alignSelf: 'flex-end',
   },
 });
