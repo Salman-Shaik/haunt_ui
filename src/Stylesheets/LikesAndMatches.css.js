@@ -13,7 +13,7 @@ export const likesAndMatchesStyles = StyleSheet.create({
   },
   profileRow: {
     width: deviceWidth,
-    height: 252,
+    height: 246,
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
@@ -28,6 +28,7 @@ export const likesAndMatchesStyles = StyleSheet.create({
     borderStyle: 'solid',
     borderBottomColor: '#111111',
     borderBottomWidth: 2,
+    backgroundColor: '#222222',
   },
   tab: {
     width: deviceWidth * 0.5,
@@ -42,6 +43,8 @@ export const likesAndMatchesStyles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#111111',
+    borderTopStartRadius: 25,
+    borderTopEndRadius: 25,
   },
   tabText: {
     color: '#ffffff',
@@ -54,10 +57,11 @@ export const likesAndMatchesStyles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'space-evenly',
     alignItems: 'center',
+    marginTop: 10,
   },
   person: {
-    width: 180,
-    height: 240,
+    width: 165,
+    height: 220,
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'flex-end',
